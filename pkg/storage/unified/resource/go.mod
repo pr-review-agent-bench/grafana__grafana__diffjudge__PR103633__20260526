@@ -1,6 +1,6 @@
 module github.com/grafana/grafana/pkg/storage/unified/resource
 
-go 1.24.2
+go 1.25.0
 
 replace (
 	github.com/grafana/grafana/pkg/apimachinery => ../../../apimachinery
@@ -28,7 +28,7 @@ require (
 	gocloud.dev v0.40.0
 	golang.org/x/sync v0.12.0
 	google.golang.org/grpc v1.71.0
-	google.golang.org/protobuf v1.36.6
+	google.golang.org/protobuf v1.36.11
 	k8s.io/apimachinery v0.32.3
 )
 

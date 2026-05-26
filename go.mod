@@ -1,6 +1,6 @@
 module github.com/grafana/grafana
 
-go 1.24.2
+go 1.25.0
 
 require (
 	buf.build/gen/go/parca-dev/parca/connectrpc/go v1.17.0-20240902100956-02fd72488966.1 // @grafana/observability-traces-and-profiling
@@ -8,7 +8,7 @@ require (
 	cloud.google.com/go/kms v1.20.5 // @grafana/grafana-backend-group
 	cloud.google.com/go/spanner v1.75.0 // @grafana/grafana-search-and-storage
 	cloud.google.com/go/storage v1.50.0 // @grafana/grafana-backend-group
-	connectrpc.com/connect v1.17.0 // @grafana/observability-traces-and-profiling
+	connectrpc.com/connect v1.20.0 // @grafana/observability-traces-and-profiling
 	cuelang.org/go v0.11.1 // @grafana/grafana-as-code
 	filippo.io/age v1.2.1 // @grafana/identity-access-team
 	github.com/1NCE-GmbH/grpc-go-pool v0.0.0-20231117122434-2a5bb974daa2 // @grafana/grafana-search-and-storage
@@ -187,7 +187,7 @@ require (
 	gonum.org/v1/gonum v0.15.1 // @grafana/oss-big-tent
 	google.golang.org/api v0.220.0 // @grafana/grafana-backend-group
 	google.golang.org/grpc v1.71.0 // @grafana/plugins-platform-backend
-	google.golang.org/protobuf v1.36.6 // @grafana/plugins-platform-backend
+	google.golang.org/protobuf v1.36.11 // @grafana/plugins-platform-backend
 	gopkg.in/ini.v1 v1.67.0 // @grafana/alerting-backend
 	gopkg.in/mail.v2 v2.3.1 // @grafana/grafana-backend-group
 	gopkg.in/yaml.v2 v2.4.0 // @grafana/alerting-backend
